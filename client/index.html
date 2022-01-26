@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA_Compatiable" content="IE-edge">
         <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
-        <script src="scripit.js" type="module"></script>
+        <script src="script.js" type="module"></script>
         <style>
             body {
                 margin: 0 auto;
@@ -27,6 +27,17 @@
             
         </style>
         <title>Document</title>
-        
+        <body>
+            <div id="message-container"></div>
+            <form id="form">
+                <label for="message-input">Message</label>
+                <input type="text" id="message-input">
+                <button type="submit" id="send-button">Send</button>
+                <label for="room-input">Room</label>
+                <input type="text" id="room-input">
+                <button type="button" id="room-button">Join</button>
+                <button type="button" id="create-button">Create</button>
+            </form>
+        </body>
     </head>
 </html>
